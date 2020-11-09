@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.munt{
+   
+    
+    font-size: 14px;
+  
+    margin-top: 15px!important;
+    padding: 22px  22px ;
+    width: 1300px;
+    height: 150px;
+    margin: 10px 10px;
+    border: 1px solid #EBEBEB;
+    zoom: 2;
+}
+.munt_f1{
+    float: left;
+    margin-right: 1000%;
+}
+.munt_f1_logo{
+    zoom: 1;
+    float: left;
+    margin-top: 20px;
+}
+.munt_f1_logo：after{
+    display: block;
+    clear: both;
+    visibility: hidden;
+    height: 0;
+    overflow: hidden;
+    content: '.';
+}
